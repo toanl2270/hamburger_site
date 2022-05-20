@@ -5,6 +5,11 @@ img {
   height: auto;
 }
 
+body {
+  font-size: 62.5%;
+  font-family: "M PLUS 1p", "Roboto", sans-serif;
+}
+
 /* resset.dev • v5.0.2 */
 /* # =================================================================
    # Global selectors

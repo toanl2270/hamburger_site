@@ -1,6 +1,15 @@
 .l-main__top__image {
     background-image: url(../../images/top-hurg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 25em
+
 }
+.l-main__top__txt {
+    color: #fff;
+}
+
 .l-main__service__menu__takeout {
     background-image: url(../../images/menu-takeout.png);
 }

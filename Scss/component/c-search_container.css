@@ -1,9 +1,13 @@
-.search_container {
-  position: relative;
+.c-seach__container {
   display: flex;
   justify-content: center;
+}
+
+.search_container {
+  display: inline-block;
+  position: relative;
   box-sizing: border-box;
-  padding: 35px 0 35px 0;
+  padding: 35px 0 50px 0;
 }
 
 .search_container input[type=text] {
@@ -36,7 +40,8 @@
   color: #fff;
 }
 
-.fa-magnifying-glass {
+.fa-magnifying-glass::before {
+  content: "";
   position: absolute;
   font-family: "Font Awesome 5 Free";
   font-size: 2em;
@@ -44,6 +49,6 @@
   font-weight: 600;
   content: "\f002";
   top: 43px;
-  left: 90px;
+  left: 15px;
 }
 /*# sourceMappingURL=c-search_container.css.map */

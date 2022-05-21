@@ -1,4 +1,8 @@
-header {
+.l-header {
   background-color: #FFF7EF;
+}
+
+.l-main__top__image {
+  background-image: url(../images/top-hurg.png);
 }
 /*# sourceMappingURL=index.css.map */

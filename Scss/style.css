@@ -350,6 +350,8 @@ body {
   display: flex;
   justify-content: center;
   color: #707070;
+  padding-top: 35px;
+  font-size: 4em;
 }
 
 .l-main__top__image {
@@ -366,5 +368,54 @@ body {
 
 .l-footer {
   background-image: url(../../images/layer.png);
+}
+
+.search_container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 35px 0 35px 0;
+}
+
+.search_container input[type=text] {
+  background: #fff;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  height: 35px;
+  width: 200px;
+  padding-left: 40px;
+}
+
+.search_container input[type=text]:focus {
+  outline: 0;
+}
+
+.search_container input[type=submit] {
+  cursor: pointer;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  background: #F2EDE9;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #707070;
+  height: 35px;
+  width: 55px;
+  margin-left: 12px;
+}
+
+.search_container ::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.fa-magnifying-glass {
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-size: 2em;
+  color: #808080;
+  font-weight: 600;
+  content: "\f002";
+  top: 43px;
+  left: 90px;
 }
 /*# sourceMappingURL=style.css.map */

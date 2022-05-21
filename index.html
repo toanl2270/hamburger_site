@@ -5,16 +5,22 @@
         <title>humbuger</title>
             <meta name="description" content="humbugersite">
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <link rel="stylesheet" href="Scss/style.css">
+            <link rel="stylesheet" href="Scss/style.css">
+            <link href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" rel="stylesheet">
     </head>
     <body>
         <div class="wrapper">
             <header class="l-header">
                 <h1 class="l-header__title">
                     Hamburger
-                </h1>
-                <button>検索</button>
-            </header>
+                </h1>                
+                <form method="get" action="http://127.0.0.1:5500/" class="search_container">
+                    <input type="text" size="10" placeholder="tesuto">
+                    <input type="submit" value="検索">
+                
+                    <i class="fa-thin fa-magnifying-glass"></i>
+            </form>
+             </header>
             <main class="l-main">
                 <div class="l-main__top__image">
                     <h2 class="l-main__top__txt">

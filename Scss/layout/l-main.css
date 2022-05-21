@@ -1,4 +1,7 @@
-.l-main {
-  background-color: #6d1212;
+.l-main__top__image {
+  background-image: url(../../images/top-hurg.png);
+  background-size: cover;
+  height: 1000px;
+  width: 1000px;
 }
 /*# sourceMappingURL=l-main.css.map */

@@ -1,3 +1,12 @@
+$color-lightgray: #707070;
+
 .l-header {
-    background-color: #FFF7EF;
+        background-color: #FFF7EF;
+
+    &__title {
+        display: flex;
+        justify-content: center;
+        color: $color-lightgray;
+    }
 }
+

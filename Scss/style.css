@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&family=Roboto&display=swap");
 img {
   max-width: 100%;
   height: auto;
@@ -355,23 +355,32 @@ body {
 }
 
 .l-main__top__image {
-  background-image: url(../../images/top-hurg.png);
+  position: relative;
+  background-image: url(../../images/top-hurg-sp.png);
   background-size: cover;
-  background-position: center;
+  background-position: right;
   width: 100%;
-  height: 25em;
+  height: 285px;
 }
 
 .l-main__top__txt {
+  position: absolute;
+  top: 40%;
+  left: 5%;
   color: #fff;
+  font-size: 3.6em;
 }
 
 .l-main__service__menu__takeout {
-  background-image: url(../../images/menu-takeout.png);
+  background-image: url(../../images/menu-takeout-sp.png);
+  width: 100%;
+  height: 642px;
 }
 
 .l-main__service__menu__eatin {
-  background-image: url(../../images/menu-eatin.png);
+  background-image: url(../../images/menu-eatin-sp.png);
+  width: 100%;
+  height: 642px;
 }
 
 .l-footer {
@@ -430,5 +439,34 @@ body {
   content: "\f002";
   top: 43px;
   left: 15px;
+}
+
+.l-main__service__menu__body li {
+  list-style: none;
+  margin: 20px 20px 20px 20px;
+}
+
+.l-main__service__menu__body hr {
+  border: solid 2px #fff;
+  width: 35px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.l-main__service__menu__body h2 {
+  color: #fff;
+  font-size: 4.1em;
+  font-family: Roboto;
+  padding-top: 11px;
+  padding-left: 15px;
+}
+
+.l-main__service__menu__body dl {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.l-main__service__menu__body dt {
+  font-size: 2.2em;
+  font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */

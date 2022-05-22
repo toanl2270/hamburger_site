@@ -1,0 +1,29 @@
+.l-main__service__menu__body li {
+  list-style: none;
+  margin: 20px 20px 20px 20px;
+}
+
+.l-main__service__menu__body hr {
+  border: solid 2px #fff;
+  width: 35px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.l-main__service__menu__body h2 {
+  color: #fff;
+  font-size: 4.1em;
+  font-family: Roboto;
+  padding-top: 11px;
+  padding-left: 15px;
+}
+
+.l-main__service__menu__body dl {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.l-main__service__menu__body dt {
+  font-size: 2.2em;
+  font-weight: 700;
+}
+/*# sourceMappingURL=menu.css.map */

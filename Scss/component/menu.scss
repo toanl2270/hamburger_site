@@ -1,8 +1,10 @@
+/*メニュー*/
+
 .l-main__service__menu__takeout {
     position: relative;
 }
 .l-main__service__menu__body {
-    width: 375px;
+    width: 100%
 }
 
 .l-main__service__menu__body li {
@@ -46,7 +48,7 @@
 }
 .l-main__service__menu__card__sub {
     display: block;
-    width: 335px;
+    width: 305px;
 }
 .l-main__service__menu__eatin {
     position: relative;

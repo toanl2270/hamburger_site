@@ -1,13 +1,13 @@
 .c-seach__container {
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 
 .search_container {
   display: inline-block;
   position: relative;
   box-sizing: border-box;
-  padding: 35px 0 50px 0;
+  padding: 50px 0 50px 0;
 }
 
 .search_container input[type=text] {
@@ -15,7 +15,7 @@
   border: 1px solid #707070;
   border-radius: 8px;
   height: 35px;
-  width: 200px;
+  width: 280px;
   padding-left: 40px;
 }
 
@@ -32,8 +32,9 @@
   font-weight: bold;
   color: #707070;
   height: 35px;
-  width: 55px;
-  margin-left: 12px;
+  width: 95px;
+  margin-left: 8px;
+  margin-right: 20px;
 }
 
 .search_container ::-webkit-input-placeholder {
@@ -48,7 +49,7 @@
   color: #808080;
   font-weight: 600;
   content: "\f002";
-  top: 43px;
-  left: 15px;
+  top: 59px;
+  left: 10px;
 }
 /*# sourceMappingURL=c-search_container.css.map */

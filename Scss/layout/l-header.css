@@ -1,11 +1,12 @@
 .l-header {
   background-color: #FFF7EF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .l-header__title {
-  display: flex;
-  justify-content: center;
   color: #707070;
-  padding-top: 35px;
-  font-size: 4em;
+  font-size: 4.4em;
+  margin-left: 65px;
 }
 /*# sourceMappingURL=l-header.css.map */

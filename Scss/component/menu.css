@@ -10,7 +10,6 @@
 
 .l-main__service__menu__body li {
   list-style: none;
-  margin: 20px 20px 20px 20px;
 }
 
 .l-main__service__menu__body hr {
@@ -44,14 +43,24 @@
   margin-bottom: 15px;
 }
 
+.l-main__service__menu__takeout {
+  margin: 90px 40px 90px 80px;
+}
+
+.l-main__service__menu__eatin {
+  margin: 90px 80px 90px 40px;
+}
+
 .l-main__service__menu__takeout__card {
   position: absolute;
   bottom: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .l-main__service__menu__card__sub {
   display: block;
-  width: 305px;
+  width: 100%;
 }
 
 .l-main__service__menu__eatin {
@@ -61,5 +70,7 @@
 .l-main__service__menu__eatin__card {
   position: absolute;
   bottom: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 /*# sourceMappingURL=menu.css.map */

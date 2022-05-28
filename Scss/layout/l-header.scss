@@ -13,3 +13,9 @@ $color-lightgray: #707070;
     }
 }
 
+.l-header {
+
+@include breakpoint (tablet){
+    width: 100%;
+}
+}

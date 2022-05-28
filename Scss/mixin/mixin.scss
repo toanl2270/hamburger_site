@@ -1,11 +1,7 @@
-$breakpoint: (
-  sp: 'screen and (max-width: 767px)',
-  tab: 'screen and (min-width: 768px)',
-  pc: 'screen and (min-width: 1025px)'
-);
-
-@mixin mq($bp) {
-  @media #{map-get($breakpoint, $bp)} {
-   @content;
-  }
+@mixin breakpoint($point) {
+    @if $point == tablet {
+        @media (max-width: 768px) {
+            @content;
+        }
+    }
 }

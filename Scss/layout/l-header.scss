@@ -13,3 +13,16 @@ $color-lightgray: #707070;
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .l-header {
+        display: flex;
+        flex-flow: column;
+    
+    &__title {
+        margin-top: 40px;
+    }
+    }
+
+}
+    
+

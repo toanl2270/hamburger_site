@@ -351,6 +351,12 @@ body {
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 1024px) {
+  .l-container {
+    display: block;
+    height: 100%;
+  }
+}
 .l-header {
   background-color: #FFF7EF;
   display: flex;
@@ -363,6 +369,15 @@ body {
   margin-left: 45px;
 }
 
+@media screen and (max-width: 1024px) {
+  .l-header {
+    display: flex;
+    flex-flow: column;
+  }
+  .l-header__title {
+    margin-top: 40px;
+  }
+}
 .l-main__top__image {
   position: relative;
   background-image: url(../../images/top-hurg-pc.png);
@@ -398,6 +413,11 @@ body {
   height: 1000px;
 }
 
+@media screen and (max-width: 1024px) {
+  .l-main__top__image {
+    height: 217px;
+  }
+}
 .l-footer {
   background-image: url(../../images/footer.png);
   width: 100%;

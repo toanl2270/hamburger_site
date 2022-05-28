@@ -346,7 +346,7 @@ body {
 .l-container {
   height: 100%;
   display: grid;
-  grid-template-rows: 192px 1fr 140px;
+  grid-template-rows: 165px 1fr 115px;
   grid-template-columns: 1fr 19%;
   box-sizing: border-box;
 }
@@ -359,8 +359,8 @@ body {
 }
 .l-header__title {
   color: #707070;
-  font-size: 5.4em;
-  margin-left: 65px;
+  font-size: 4.8em;
+  margin-left: 45px;
 }
 
 .l-main__top__image {
@@ -369,7 +369,7 @@ body {
   background-size: cover;
   background-position: right;
   width: 100%;
-  height: 475px;
+  height: 400px;
 }
 
 .l-main__top__txt {
@@ -424,31 +424,30 @@ body {
 }
 
 .l-sidear__main__title {
-  font-size: 3.5em;
+  font-size: 2.5em;
   font-family: Roboto;
   font-weight: bold;
-  margin-top: 70px;
-  margin-left: 45px;
-  margin-bottom: 70px;
+  margin-top: 60px;
+  margin-left: 35px;
+  margin-bottom: 60px;
 }
 
 .l-sidebar__main__list {
   list-style: none;
   font-size: 2em;
   font-weight: bold;
-  margin-left: 45px;
-  margin-top: 40px;
-  margin-bottom: 45px;
+  margin-left: 35px;
+  margin-bottom: 35px;
 }
 .l-sidebar__main__list ul {
   list-style: none;
   font-size: 0.8em;
   font-weight: normal;
-  margin-left: 20px;
-  margin-top: 35px;
+  margin-left: 15px;
+  margin-top: 25px;
 }
 .l-sidebar__main__list ul li {
-  margin-top: 23px;
+  margin-top: 16px;
 }
 
 .l-main__map {
@@ -464,7 +463,7 @@ body {
   height: 100%;
   width: 100%;
 }
-.l-main__map iframe {
+.l-main__map img {
   position: absolute;
   top: 0;
   height: 100%;
@@ -515,7 +514,7 @@ body {
   border: 1px solid #707070;
   border-radius: 8px;
   height: 35px;
-  width: 360px;
+  width: 300px;
   padding-left: 40px;
 }
 
@@ -532,7 +531,7 @@ body {
   font-weight: bold;
   color: #707070;
   height: 35px;
-  width: 120px;
+  width: 100px;
   margin-left: 8px;
   margin-right: 20px;
 }
@@ -601,7 +600,7 @@ body {
 }
 
 .l-main__service__menu__takeout {
-  margin: 100px 30px 125px 80px;
+  margin: 90px 30px 100px 80px;
 }
 .l-main__service__menu__takeout__subtitle {
   padding-top: 12px;
@@ -610,7 +609,7 @@ body {
 }
 
 .l-main__service__menu__eatin {
-  margin: 100px 80px 125px 30px;
+  margin: 90px 80px 100px 30px;
 }
 .l-main__service__menu__eatin__subtitle {
   padding-top: 12px;

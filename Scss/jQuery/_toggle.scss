@@ -1,0 +1,28 @@
+@use "../global/" as g;
+
+.l-sidebar_open {
+    top: 0;
+    left: 55%;
+    height: 100vh;
+    z-index: 2000;
+    transition: 1s;
+    overflow: auto;
+}
+
+.l-sidebar__main_bg {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    opacity: 0;
+    z-index: 1000;
+}
+.l-sidebar__main_bg.l-sidebar_open {
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    opacity: 1;
+    background-color: rgba(0,0,0,0.6);
+    background-attachment: fixed;
+    }

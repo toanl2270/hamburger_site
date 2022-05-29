@@ -7,6 +7,8 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
             <link rel="stylesheet" href="Scss/style.css">
             <link href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" rel="stylesheet">
+            <script src="/js/jquery-3.6.0.min.js"></script>
+            <script src="/js/_js_toggle.js"></script>
     </head>
     <body>
         <article class="l-container">
@@ -21,7 +23,7 @@
                         <i class="fa-thin fa-magnifying-glass"></i>
                     </form>
                 </div>
-                <botton class="l-header__sidebar__opne">Menu</botton>
+                <botton class="l-header__sidebar__open">Menu</botton>
              </header>
              <!---メイン-->
             <main class="l-main">
@@ -133,7 +135,12 @@
             </main>
             <!--サイドバー-->
             <aside class="l-sidebar">
-                <h4 class="l-sidear__main__title">Menu</h4>
+                <h4 class="l-sidebar__main__title">Menu</h4>
+                <div class="l-sidebar__close">
+                    <button class="l-sidebar__close__btn">
+                        <span>閉じるボタン</span>
+                    </button>
+                </div>
                 <nav>
                    <ul class="l-sidebar__main__container">
                        <li class="l-sidebar__main__list">バーガー
@@ -175,6 +182,7 @@
                 <p>ショップ情報 | ヒストリー</p>
                 <small>Copyright: RaiseTech</small>
             </footer>
+            <div class="l-sidebar__main_bg"></div>
         </article>
     </body>
 </html>

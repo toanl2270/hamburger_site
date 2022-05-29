@@ -343,6 +343,10 @@ body {
   line-height: 1.4;
 }
 
+body.noneScroll {
+  position: fixed;
+}
+
 .l-container {
   height: 100%;
   display: grid;
@@ -350,11 +354,9 @@ body {
   grid-template-columns: 1fr 19%;
   box-sizing: border-box;
 }
-
 @media (max-width: 1024px) {
   .l-container {
     display: block;
-    height: 100%;
   }
 }
 
@@ -384,11 +386,11 @@ body {
   }
 }
 
-.l-header__sidebar__opne {
+.l-header__sidebar__open {
   display: none;
 }
 @media (max-width: 1024px) {
-  .l-header__sidebar__opne {
+  .l-header__sidebar__open {
     position: absolute;
     display: block;
     font-size: 2.8em;
@@ -484,14 +486,24 @@ body {
   background-color: #F2EDE9;
   color: #707070;
 }
+@media (max-width: 1024px) {
+  .l-sidebar {
+    position: fixed;
+  }
+}
 
-.l-sidear__main__title {
+.l-sidebar__main__title {
   font-size: 2.5em;
   font-family: Roboto;
   font-weight: bold;
   margin-top: 60px;
   margin-left: 35px;
   margin-bottom: 60px;
+}
+@media (max-width: 1024px) {
+  .l-sidebar__main__title {
+    display: none;
+  }
 }
 
 .l-sidebar__main__list {
@@ -751,5 +763,78 @@ body {
   bottom: 0px;
   margin-left: 15px;
   margin-right: 15px;
+}
+
+.l-sidebar__close {
+  width: 100%;
+  height: 80px;
+  right: 600px;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.l-sidebar__close__btn {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0;
+}
+
+@media (max-width: 1024px) {
+  .l-sidebar__close__btn::before {
+    content: "";
+    width: 55%;
+    height: 5px;
+    top: 50%;
+    left: 22.5%;
+    background-color: #707070;
+    position: absolute;
+    display: block;
+    transform: rotate(45deg);
+  }
+}
+
+@media (max-width: 1024px) {
+  .l-sidebar__close__btn::after {
+    content: "";
+    width: 55%;
+    height: 5px;
+    top: 50%;
+    left: 22.5%;
+    background-color: #707070;
+    position: absolute;
+    display: block;
+    transform: rotate(-45deg);
+  }
+}
+
+.l-sidebar_open {
+  top: 0;
+  left: 55%;
+  height: 100vh;
+  z-index: 2000;
+  transition: 1s;
+  overflow: auto;
+}
+
+.l-sidebar__main_bg {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 100%;
+  opacity: 0;
+  z-index: 1000;
+}
+
+.l-sidebar__main_bg.l-sidebar_open {
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-attachment: fixed;
 }
 /*# sourceMappingURL=style.css.map */

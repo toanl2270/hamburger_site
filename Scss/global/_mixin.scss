@@ -4,9 +4,6 @@
             @content;
         }
     }
-}
-
-@mixin breakpoint($point) {
     @if $point == tablet {
         @media (max-width: 1024px) {
             @content;

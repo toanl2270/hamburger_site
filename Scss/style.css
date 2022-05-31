@@ -359,6 +359,12 @@ body.noneScroll {
     display: block;
   }
 }
+@media (max-width: 599px) {
+  .l-container {
+    display: flex;
+    flex-flow: column;
+  }
+}
 
 .l-header {
   background-color: #FFF7EF;

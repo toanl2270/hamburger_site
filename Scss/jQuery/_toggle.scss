@@ -8,6 +8,10 @@
     z-index: 2000;
     transition: 0.5s;
     overflow: auto;
+@include g.breakpoint (sp) {
+    left: 20%;
+    width: 80%;
+}
 }
 
 .l-sidebar__main_bg {

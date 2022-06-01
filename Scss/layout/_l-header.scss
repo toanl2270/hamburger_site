@@ -21,6 +21,9 @@
         font-size: 3.5em;
         margin: 30px 0px 0px 0px;
     }
+    @include g.breakpoint (sp) {
+        font-size: 3em;
+    }
 }
 
 .l-header__sidebar__open {

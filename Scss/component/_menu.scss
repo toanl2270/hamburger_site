@@ -49,6 +49,9 @@
     margin: 90px 30px 100px 80px;
 @include g.breakpoint (tablet) {
     margin: 40px 15px 35px 40px;
+@include g.breakpoint (sp) {
+    margin: 20px;
+}    
 }
 &__subtitle {
     padding-top: 12px;
@@ -62,6 +65,9 @@
 @include g.breakpoint (tablet) {
     margin: 40px 40px 35px 25px;
 }
+@include g.breakpoint (sp) {
+    margin: 20px 20px 50px 20px;
+} 
 &__subtitle {
     padding-top: 12px;
     padding-left: 20px;

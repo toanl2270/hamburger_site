@@ -14,7 +14,10 @@
     z-index: 200;
     height: 100%;
     width: 100%;
-}    
+@include g.breakpoint (sp) {
+    height: 60%;
+}
+}
 & img {
     position: absolute;
     top: 0;

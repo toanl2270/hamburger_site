@@ -11,7 +11,11 @@
 @include g.breakpoint (tablet) {
     height: 245px;   
 }
+@include g.breakpoint (sp) {
+    height: 375px;
 }
+}
+
 .l-main__top__txt {
     position: absolute;
     top: 40%;
@@ -21,10 +25,22 @@
 @include g.breakpoint (tablet) {
     display: none;   
 }
+@include g.breakpoint (sp) {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    color: #fff;
+    font-size: 2.8em;
+}
 }
 
 .l-main__service__menu__body {
     display: flex;
+@include g.breakpoint (sp) {
+    display: flex;
+    flex-flow: column;
+}
 }
 
 .l-main__service__menu__takeout {
@@ -32,10 +48,16 @@
     background-size: cover;
     width: 100%;
     height: 1000px;
+@include g.breakpoint (sp) {
+    width: auto;
+}
 }
 .l-main__service__menu__eatin {
     background-image: url(../../images/menu-eatin-pc.png);
     background-size: cover;
     width: 100%;
     height: 1000px;
+@include g.breakpoint (sp) {
+        width: auto;
+}
 }

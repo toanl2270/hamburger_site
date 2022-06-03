@@ -16,6 +16,9 @@
     width: 50px;
     margin-top: 17px;
     margin-left: 25px;
+@include g.breakpoint (tablet) {
+    width: 25px;
+}
 }
 
 .l-main__service__menu__body h2 {
@@ -24,6 +27,9 @@
     font-family: 'Roboto';
     padding-top: 14px;
     padding-left: 15px;
+@include g.breakpoint (tablet) {
+    font-size: 3.5em;
+}
 }
 
 .l-main__service__menu__body dl {

@@ -12,6 +12,7 @@
     height: 245px;   
 }
 @include g.breakpoint (sp) {
+    background-image: url(../../images/top-hurg-sp.png);
     height: 375px;
 }
 }
@@ -48,16 +49,34 @@
     background-size: cover;
     width: 100%;
     height: 1000px;
+@include g.breakpoint (tablet) {
+    background-image: url(../../images/menu-takeout-tab.png);
+    background-size: cover;
+
+}
 @include g.breakpoint (sp) {
+    background-image: url(../../images/menu-takeout-sp.png);
+    background-size: cover;
+    background-position: center;
     width: auto;
+    height: 642px;
 }
 }
 .l-main__service__menu__eatin {
     background-image: url(../../images/menu-eatin-pc.png);
     background-size: cover;
     width: 100%;
-    height: 1000px;
+
+@include g.breakpoint (tablet) {
+    background-image: url(../../images/menu-eatin-tab.png);
+    background-size: cover;
+    background-position: center;
+}
 @include g.breakpoint (sp) {
-        width: auto;
+    background-image: url(../../images/menu-eatin-sp.png);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 642px;
 }
 }

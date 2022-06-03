@@ -429,7 +429,7 @@ body.noneScroll {
 @media (max-width: 599px) {
   .l-main__top__image {
     background-image: url(../../images/top-hurg-sp.png);
-    height: 375px;
+    height: 285px;
   }
 }
 
@@ -449,10 +449,10 @@ body.noneScroll {
   .l-main__top__txt {
     display: block;
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 5%;
     color: #fff;
-    font-size: 2.8em;
+    font-size: 3.6em;
   }
 }
 
@@ -656,11 +656,6 @@ body.noneScroll {
 
 .l-main__map__title {
   font-size: 3em;
-}
-@media (max-width: 1030px) {
-  .l-main__map__title {
-    font-size: 2.5em;
-  }
 }
 
 .c-seach__container {

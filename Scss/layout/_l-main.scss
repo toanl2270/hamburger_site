@@ -13,7 +13,7 @@
 }
 @include g.breakpoint (sp) {
     background-image: url(../../images/top-hurg-sp.png);
-    height: 375px;
+    height: 285px;
 }
 }
 
@@ -29,10 +29,10 @@
 @include g.breakpoint (sp) {
     display: block;
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 5%;
     color: #fff;
-    font-size: 2.8em;
+    font-size: 3.6em;
 }
 }
 

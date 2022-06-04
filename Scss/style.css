@@ -10,6 +10,14 @@ body {
   font-family: "M PLUS 1p", "Roboto", sans-serif;
 }
 
+a,
+a:link a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* resset.dev • v5.0.2 */
 /* # =================================================================
    # Global selectors
@@ -496,7 +504,6 @@ body.noneScroll {
 @media (max-width: 1030px) {
   .l-main__service__menu__eatin {
     background-image: url(../../images/menu-eatin-tab.png);
-    background-size: cover;
     background-position: center;
   }
 }
@@ -554,6 +561,8 @@ body.noneScroll {
 @media (max-width: 1030px) {
   .l-sidebar {
     position: fixed;
+    left: 155%;
+    transition: 0.5s;
   }
 }
 
@@ -656,6 +665,14 @@ body.noneScroll {
 
 .l-main__map__title {
   font-size: 3em;
+}
+
+.l-main__top__txt_sub {
+  position: absolute;
+  top: 44%;
+  left: 200px;
+  font-size: 1.6em;
+  color: #fff;
 }
 
 .c-seach__container {
@@ -920,7 +937,6 @@ body.noneScroll {
   height: 100vh;
   width: 45%;
   z-index: 2000;
-  transition: 0.5s;
   overflow: auto;
 }
 @media (max-width: 599px) {
@@ -943,8 +959,9 @@ body.noneScroll {
 .l-sidebar__main_bg.l-sidebar_open {
   top: 0;
   left: 0;
-  transition: 0.5s;
   opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.3s;
   background-color: rgba(0, 0, 0, 0.6);
   background-attachment: fixed;
 }

@@ -6,7 +6,6 @@
     height: 100vh;
     width: 45%;
     z-index: 2000;
-    transition: 0.5s;
     overflow: auto;
 @include g.breakpoint (sp) {
     left: 20%;
@@ -26,8 +25,9 @@
 .l-sidebar__main_bg.l-sidebar_open {
     top: 0;
     left: 0;
-    transition: 0.5s;
     opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.3s;
     background-color: rgba(0,0,0,0.6);
     background-attachment: fixed;
     }

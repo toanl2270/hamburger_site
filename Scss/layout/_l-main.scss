@@ -23,6 +23,7 @@
     left: 5%;
     color: #fff;
     font-size: 3.8em;
+
 @include g.breakpoint (tablet) {
     display: none;   
 }
@@ -69,7 +70,6 @@
 
 @include g.breakpoint (tablet) {
     background-image: url(../../images/menu-eatin-tab.png);
-    background-size: cover;
     background-position: center;
 }
 @include g.breakpoint (sp) {

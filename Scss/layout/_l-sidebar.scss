@@ -8,6 +8,8 @@
     color: #707070;
 @include g.breakpoint (tablet) {
     position: fixed;
+    left: 155%;
+    transition: 0.5s;
 }
 }
 

@@ -667,12 +667,22 @@ body.noneScroll {
   font-size: 3em;
 }
 
-.l-main__top__txt_sub {
+.l-main__archive__top__image {
+  position: relative;
+  background-image: url(../../images/archive-top-pc.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 239px;
+}
+.l-main__archive__top__image::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
-  top: 44%;
-  left: 200px;
-  font-size: 1.6em;
-  color: #fff;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .c-seach__container {
@@ -929,6 +939,22 @@ body.noneScroll {
     display: block;
     transform: rotate(-45deg);
   }
+}
+
+.l-main__archive__top__txt {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  color: #fff;
+  font-size: 3.8em;
+}
+
+.l-main____archive__top__txt_sub {
+  position: absolute;
+  top: 48%;
+  left: 200px;
+  font-size: 1.6em;
+  color: #fff;
 }
 
 .l-sidebar_open {

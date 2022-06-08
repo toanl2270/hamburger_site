@@ -16,6 +16,7 @@ a:hover,
 a:active {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
 /* resset.dev • v5.0.2 */
@@ -478,7 +479,6 @@ body.noneScroll {
   background-image: url(../../images/menu-takeout-pc.png);
   background-size: cover;
   width: 100%;
-  height: 1000px;
 }
 @media (max-width: 1132px) {
   .l-main__service__menu__takeout {
@@ -831,7 +831,7 @@ body.noneScroll {
   color: #3C2A10;
   font-size: 1.6em;
   line-height: 1.7em;
-  margin-bottom: 15px;
+  margin: 0 15px 15px 15px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -876,15 +876,12 @@ body.noneScroll {
 }
 
 .l-main__service__menu__takeout__card {
-  position: absolute;
-  bottom: 0px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-top: 60%;
 }
 
 .l-main__service__menu__card__sub {
-  display: block;
-  width: 100%;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .l-main__service__menu__eatin {
@@ -894,8 +891,7 @@ body.noneScroll {
 .l-main__service__menu__eatin__card {
   position: absolute;
   bottom: 0px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-top: 60%;
 }
 
 .l-sidebar__close {

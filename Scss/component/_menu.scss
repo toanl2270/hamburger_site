@@ -33,7 +33,8 @@
 }
 
 .l-main__service__menu__body dl {
-    background-color: rgba(255,255,255,80%);;
+    background-color: rgba(255,255,255,80%);
+
 }
 
 .l-main__service__menu__body dt {
@@ -46,7 +47,7 @@
     color: #3C2A10;
     font-size: 1.6em;
     line-height: 1.7em;
-    margin-bottom: 15px;
+    margin: 0 15px 15px 15px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -83,14 +84,13 @@
 }
 
 .l-main__service__menu__takeout__card {
-    position: absolute;
-    bottom: 0px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-top: 60%;
 }
 .l-main__service__menu__card__sub {
-    display: block;
-    width: 100%;
+    margin-right: 15px;
+    margin-left: 15px;
+  
+
 }
 .l-main__service__menu__eatin {
     position: relative;
@@ -98,6 +98,5 @@
 .l-main__service__menu__eatin__card {
     position: absolute;
     bottom: 0px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-top: 60%;
 }

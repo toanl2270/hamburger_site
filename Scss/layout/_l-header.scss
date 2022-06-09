@@ -38,6 +38,7 @@
         color: #707070;
         right: 20px;
         top: 20px;
+        cursor: pointer;
     }
     @include g.breakpoint (sp) {
         font-size: 2em;

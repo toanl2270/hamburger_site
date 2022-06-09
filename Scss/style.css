@@ -492,7 +492,6 @@ body.noneScroll {
     background-size: cover;
     background-position: center;
     width: auto;
-    height: 642px;
   }
 }
 
@@ -513,7 +512,6 @@ body.noneScroll {
     background-size: cover;
     background-position: center;
     width: auto;
-    height: 642px;
   }
 }
 
@@ -780,10 +778,6 @@ body.noneScroll {
   }
 }
 
-.l-main__service__menu__takeout {
-  position: relative;
-}
-
 .l-main__service__menu__body {
   width: 100%;
 }
@@ -792,11 +786,19 @@ body.noneScroll {
   list-style: none;
 }
 
+.l-main__service__menu__sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+
 .l-main__service__menu__body hr {
   border: solid 2px #fff;
   width: 50px;
   margin-top: 17px;
   margin-left: 25px;
+  margin-bottom: 15rem;
 }
 @media (max-width: 1132px) {
   .l-main__service__menu__body hr {
@@ -837,6 +839,11 @@ body.noneScroll {
   padding-bottom: 20px;
 }
 
+.l-main__service__menu__takeout__card {
+  box-sizing: border-box;
+  margin-top: auto;
+}
+
 .l-main__service__menu__takeout {
   margin: 105px 30px 100px 80px;
 }
@@ -875,23 +882,15 @@ body.noneScroll {
   padding-bottom: 9px;
 }
 
-.l-main__service__menu__takeout__card {
-  margin-top: 60%;
+.l-main__service__menu__eatin__card {
+  box-sizing: border-box;
+  margin-top: auto;
 }
 
 .l-main__service__menu__card__sub {
   margin-right: 15px;
   margin-left: 15px;
-}
-
-.l-main__service__menu__eatin {
-  position: relative;
-}
-
-.l-main__service__menu__eatin__card {
-  position: absolute;
-  bottom: 0px;
-  margin-top: 60%;
+  margin-bottom: 15px;
 }
 
 .l-sidebar__close {

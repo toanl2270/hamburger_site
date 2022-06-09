@@ -48,3 +48,14 @@
     transform: rotate(-45deg);
 }
 }
+
+.archive__card__btn {
+    display: flex;
+    justify-content: center;
+}
+.archive__card__btn button {
+    margin-top: 50px;
+    border:1px #fff solid;background-color: #fff;
+    border-radius:  100vh;
+    padding: 10px 50px 10px 50px;
+}

@@ -16,5 +16,43 @@
     left: 0;
 }
 }
+.l-main__archive {
+    margin: 40px 80px 50px 80px;
+}
+.l-main__archive__subheading {
+    font-size: 2.8em;
+    margin-bottom: 25px;
+}
+
+.archive__card {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.archive__card__body {
+    display: flex;
+}
+
+.archive__card__body img {
+    width: 50%;
+}
+
+.archive__card__txt {
+    background-color: #3C2B1C;
+    width: 60%; 
+    padding: 60px 80px 60px 60px;
+    color: #fff;
+}
+
+.archive__card__txt h2 {
+    font-size: 2.8em;
+    margin-bottom: 30px;
+}
+
+.archive__card__txt h4 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
 
 

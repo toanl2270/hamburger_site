@@ -1,0 +1,31 @@
+@use "../global/" as g;
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 64px
+
+}
+.pagination p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pagination li {
+    display: inline;
+    padding:10px 15px;
+    border:1px #ccc solid;color:#000053;
+    border-radius: 5px / 5px;
+    }
+.pagination li:first-of-type,
+.pagination li:last-of-type {
+    color: #707070;
+    border: none;
+}
+    
+.pagination .first {background-color:#777;color:#fff;}
+    
+    

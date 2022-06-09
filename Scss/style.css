@@ -893,6 +893,10 @@ body.noneScroll {
   margin-bottom: 15px;
 }
 
+.btn {
+  cursor: pointer;
+}
+
 .l-sidebar__close {
   width: 100%;
   margin-bottom: 80px;

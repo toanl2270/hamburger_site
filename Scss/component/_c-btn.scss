@@ -1,5 +1,9 @@
 @use "../global/" as g;
 
+.btn {
+    cursor: pointer;
+}
+
 .l-sidebar__close {
     width: 100%;
     margin-bottom: 80px;

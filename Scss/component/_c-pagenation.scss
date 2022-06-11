@@ -3,8 +3,8 @@
 .pagination {
     display: flex;
     justify-content: center;
-    margin-top: 150px;
-    margin-bottom: 64px;
+    margin-top: 30vh;
+    margin-bottom: 10vh;
     font-weight: bold;
 
 }
@@ -28,6 +28,7 @@
     border: none;
     font-size: 1.6em;
     align-items: center;
+    margin-right: 0px;
 }
 
 .pagination li {

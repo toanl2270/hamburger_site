@@ -35,29 +35,34 @@
     display: flex;
     margin-bottom: 15px;
 @include g.breakpoint (tablet) {
-    margin: 0px 40px 15px 40px;
+    margin: 0vh 10vh 5vh 10vh;
 }
 }
 
 .archive__card__body {
     display: flex;
+    width: 100%;
 }
 
-.archive__card__body img {
-    width: 50%;
+.archive__card__img {
+    background-image: url(../../images/archive-section.png);
+    width: 70%;
     background-size: cover;
 }
 
 .archive__card__txt {
     background-color: #3C2B1C;
     width: 60%; 
-    padding: 60px 80px 60px 60px;
+    padding: 10vh 20vh 10vh 20vh;
     color: #fff;
+@include g.breakpoint (tablet) {
+    padding: 10vh;
+}    
 }
 
 .archive__card__txt h2 {
     font-size: 2.8em;
-    margin-bottom: 30px;
+    margin-bottom: 10vh;
 }
 
 .archive__card__txt h4 {

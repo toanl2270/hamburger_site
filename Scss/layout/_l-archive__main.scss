@@ -1,3 +1,10 @@
+@use "../global/mixin" as g;
+
+.l-main {
+    background-color: #FFFDFA;
+}
+
+
 .l-main__archive__top__image {
     position: relative;
     background-image: url(../../images/archive-top-pc.png);
@@ -27,6 +34,9 @@
 .archive__card {
     display: flex;
     margin-bottom: 15px;
+@include g.breakpoint (tablet) {
+    margin: 0px 40px 15px 40px;
+}
 }
 
 .archive__card__body {
@@ -35,6 +45,7 @@
 
 .archive__card__body img {
     width: 50%;
+    background-size: cover;
 }
 
 .archive__card__txt {

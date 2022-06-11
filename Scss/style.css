@@ -468,6 +468,7 @@ body.noneScroll {
 
 .l-main__service__menu__body {
   display: flex;
+  background-color: #FFFDFA;
 }
 @media (max-width: 599px) {
   .l-main__service__menu__body {
@@ -666,6 +667,10 @@ body.noneScroll {
   font-size: 3em;
 }
 
+.l-main {
+  background-color: #FFFDFA;
+}
+
 .l-main__archive__top__image {
   position: relative;
   background-image: url(../../images/archive-top-pc.png);
@@ -697,6 +702,11 @@ body.noneScroll {
   display: flex;
   margin-bottom: 15px;
 }
+@media (max-width: 1132px) {
+  .archive__card {
+    margin: 0px 40px 15px 40px;
+  }
+}
 
 .archive__card__body {
   display: flex;
@@ -704,6 +714,7 @@ body.noneScroll {
 
 .archive__card__body img {
   width: 50%;
+  background-size: cover;
 }
 
 .archive__card__txt {
@@ -990,13 +1001,13 @@ body.noneScroll {
   border: 1px #fff solid;
   background-color: #fff;
   border-radius: 100vh;
-  padding: 10px 50px 10px 50px;
+  padding: 20px 80px 20px 80px;
 }
 
 .l-main__archive__top__txt {
   position: absolute;
   top: 40%;
-  left: 5%;
+  left: 50px;
   color: #fff;
   font-size: 3.8em;
 }
@@ -1004,7 +1015,7 @@ body.noneScroll {
 .l-main____archive__top__txt_sub {
   position: absolute;
   top: 48%;
-  left: 200px;
+  left: 170px;
   font-size: 1.6em;
   color: #fff;
 }
@@ -1014,30 +1025,44 @@ body.noneScroll {
   justify-content: center;
   margin-top: 150px;
   margin-bottom: 64px;
+  font-weight: bold;
 }
 
 .pagination p {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+.pagination .prev {
+  color: #707070;
+  border: none;
+  font-size: 1.6em;
+  align-items: center;
+}
+
+.pagination .next {
+  color: #707070;
+  border: none;
+  font-size: 1.6em;
+  align-items: center;
 }
 
 .pagination li {
   display: inline;
-  padding: 10px 15px;
-  border: 1px #ccc solid;
-  color: #000053;
-  border-radius: 5px/5px;
-}
-
-.pagination li:first-of-type,
-.pagination li:last-of-type {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: 1.5px #ccc solid;
   color: #707070;
-  border: none;
+  font-size: 1.6em;
+  color: #707070;
+  background-color: #fff;
 }
 
 .pagination .first {
-  background-color: #777;
+  background-color: #3C2B1C;
   color: #fff;
 }
 

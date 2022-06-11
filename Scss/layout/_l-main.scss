@@ -39,6 +39,7 @@
 
 .l-main__service__menu__body {
     display: flex;
+    background-color: #FFFDFA;
 @include g.breakpoint (sp) {
     display: flex;
     flex-flow: column;

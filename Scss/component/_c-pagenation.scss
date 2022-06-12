@@ -6,8 +6,27 @@
     margin-top: 30vh;
     margin-bottom: 10vh;
     font-weight: bold;
+@include g.breakpoint (tablet) {
+    margin-top: 13vh;
+    margin-bottom: 3vh;
+}
+@include g.breakpoint (sp) {
+    display: none;
 
 }
+}
+.pagenation-sp {
+    display: none;
+
+    @include g.breakpoint (sp) {
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh 2vh 3vh 2vh;
+    color: #707070;
+    font-size: 1.6em;
+}
+}
+
 .pagination p {
     display: flex;
     justify-content: center;

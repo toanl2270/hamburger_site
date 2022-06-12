@@ -6,13 +6,23 @@
     left: 50px;
     color: #fff;
     font-size: 3.8em;
+@include g.breakpoint (tablet) {
+    font-size: 4.5em;
+}
+@include g.breakpoint (sp) {
+    font-size: 3.5em;
+}
 }
 
 .l-main____archive__top__txt_sub {
     position: absolute;
-    top: 48%;
-    left: 170px;
+    top: 50%;
+    left: 200px;
     font-size: 1.6em;
+    font-weight: bold;
     color: #fff;
+@include g.breakpoint (sp) {
+    top: 60%;
+    left: 50px;
 }
-
+}

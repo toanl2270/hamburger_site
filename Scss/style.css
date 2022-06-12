@@ -1101,6 +1101,12 @@ body.noneScroll {
   font-weight: bold;
   color: #fff;
 }
+@media (max-width: 1132px) {
+  .l-main____archive__top__txt_sub {
+    top: 50%;
+    left: 230px;
+  }
+}
 @media (max-width: 599px) {
   .l-main____archive__top__txt_sub {
     top: 60%;

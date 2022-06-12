@@ -6,6 +6,7 @@
     left: 50px;
     color: #fff;
     font-size: 3.8em;
+    font-family: "Roboto";
 @include g.breakpoint (tablet) {
     font-size: 4.5em;
 }
@@ -16,7 +17,7 @@
 
 .l-main____archive__top__txt_sub {
     position: absolute;
-    top: 50%;
+    top: 48%;
     left: 200px;
     font-size: 1.6em;
     font-weight: bold;

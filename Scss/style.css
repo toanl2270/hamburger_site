@@ -768,7 +768,7 @@ body.noneScroll {
 
 .archive__card__txt h2 {
   font-size: 2.8em;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
 }
 @media (max-width: 1132px) {
   .archive__card__txt h2 {
@@ -1078,6 +1078,7 @@ body.noneScroll {
   left: 50px;
   color: #fff;
   font-size: 3.8em;
+  font-family: "Roboto";
 }
 @media (max-width: 1132px) {
   .l-main__archive__top__txt {
@@ -1092,7 +1093,7 @@ body.noneScroll {
 
 .l-main____archive__top__txt_sub {
   position: absolute;
-  top: 50%;
+  top: 48%;
   left: 200px;
   font-size: 1.6em;
   font-weight: bold;
@@ -1108,7 +1109,7 @@ body.noneScroll {
 .pagination {
   display: flex;
   justify-content: center;
-  margin-top: 30vh;
+  margin-top: 15vh;
   margin-bottom: 10vh;
   font-weight: bold;
 }

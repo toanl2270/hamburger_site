@@ -360,7 +360,7 @@ body.noneScroll {
   height: 100%;
   display: grid;
   grid-template-rows: 195px 1fr 130px;
-  grid-template-columns: 1fr 19%;
+  grid-template-columns: 1fr 23%;
   box-sizing: border-box;
 }
 @media (max-width: 1132px) {
@@ -712,7 +712,7 @@ body.noneScroll {
 
 .archive__card {
   display: flex;
-  margin-bottom: 15px;
+  margin: 0vh 8vh 3vh 8vh;
 }
 @media (max-width: 1132px) {
   .archive__card {
@@ -737,8 +737,9 @@ body.noneScroll {
 
 .archive__card__img {
   background-image: url(../../images/archive-section.png);
-  width: 70%;
+  width: 50%;
   background-size: cover;
+  background-position: center;
 }
 @media (max-width: 599px) {
   .archive__card__img {
@@ -751,7 +752,7 @@ body.noneScroll {
 
 .archive__card__txt {
   background-color: #3C2B1C;
-  width: 60%;
+  width: 50%;
   padding: 5vh 5vh 5vh 5vh;
   color: #fff;
 }
@@ -763,6 +764,7 @@ body.noneScroll {
 @media (max-width: 599px) {
   .archive__card__txt {
     width: 100%;
+    padding: 3vh 3vh 5vh 3vh;
   }
 }
 

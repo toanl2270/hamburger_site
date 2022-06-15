@@ -809,7 +809,7 @@ body.noneScroll {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 500px;
+  height: 380px;
 }
 @media (max-width: 599px) {
   .l-main__single__top__image {
@@ -819,7 +819,22 @@ body.noneScroll {
 }
 
 .l-main__single__section1__title {
-  margin-top: 5em;
+  margin-top: 1.5em;
+  font-size: 2.8em;
+}
+
+.l-main__single__section1__txt {
+  margin-top: 4em;
+  font-size: 1.2em;
+}
+
+.l-main__single__section2 h3 {
+  margin-top: 3em;
+  font-size: 2em;
+}
+
+.l-main__single__section2 h4 {
+  font-size: 1.8em;
 }
 
 .c-seach__container {

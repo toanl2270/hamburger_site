@@ -803,6 +803,10 @@ body.noneScroll {
   color: #3C2A10;
 }
 
+.l-main__body {
+  margin: 0em 6em 0em 6em;
+}
+
 .l-main__single__top__image {
   position: relative;
   background-image: url(../../images/single-top.png);
@@ -834,7 +838,28 @@ body.noneScroll {
 }
 
 .l-main__single__section2 h4 {
+  margin-top: 3em;
   font-size: 1.8em;
+}
+
+.l-main__single__section2 h5 {
+  margin-top: 5em;
+}
+
+.l-main__single__section2 h6 {
+  margin-top: 6em;
+}
+
+.l-main__single__section3 {
+  padding: 1em 3em 1em 3em;
+  background-color: #F5F5F5;
+}
+.l-main__single__section3 p {
+  margin: 3em 0em 3em 0em;
+}
+
+.l-main__single__section3__cite {
+  margin: 3em 0em 3em 0em;
 }
 
 .c-seach__container {

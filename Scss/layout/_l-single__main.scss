@@ -85,15 +85,16 @@
 .l-main__singl__section4__sub1__body3 {
     display: flex;
     justify-content: center;
-    margin-bottom: 5em 0em 5em 0em;
 }
 
 .l-main__single__section5__body {
     display: flex;
     flex-wrap: wrap;
+    gap: 1em;
 
 & figure {
-    margin: 1em 1em 1em 1em;
 }
 
 }
+
+

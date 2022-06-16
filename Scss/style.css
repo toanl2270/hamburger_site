@@ -832,8 +832,11 @@ body.noneScroll {
   font-size: 1.2em;
 }
 
+.l-main__single__section2 {
+  margin: 3em 0em 3em 0em;
+}
+
 .l-main__single__section2 h3 {
-  margin-top: 3em;
   font-size: 2em;
 }
 
@@ -860,6 +863,10 @@ body.noneScroll {
 
 .l-main__single__section3__cite {
   margin: 3em 0em 3em 0em;
+}
+
+.l-main__single__section4 {
+  margin: 5em 0em 5em 0em;
 }
 
 .c-seach__container {

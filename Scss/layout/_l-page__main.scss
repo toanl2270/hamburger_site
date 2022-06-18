@@ -113,7 +113,6 @@
     height: auto;
 }
 @include g.breakpoint (sp) {
-    width: 30%;
     height: 89px;
 }
 }
@@ -121,12 +120,13 @@
 .l-main__page__section4__sub1__body2 {
     display: flex;
     margin-bottom: 5em;
-    width: 100%;
 & p {
     text-indent: 1em;
     margin-right: 3em;
+    
 @include g.breakpoint (sp) {
     margin-right: 1em;
+   
 }
 }
 }

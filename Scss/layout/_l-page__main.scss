@@ -13,9 +13,9 @@
 }
 
 
-.l-main__single__top__image {
+.l-main__page__top__image {
     position: relative;
-    background-image: url(../../images/single-top.png);
+    background-image: url(../../images/page-top.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -26,26 +26,26 @@
 }
 }
 
-.l-main__single__section1__title {
+.l-main__page__section1__title {
     margin-top: 1.5em;
     font-size: 2.8em;
 }
 
-.l-main__single__section1__txt {
+.l-main__page__section1__txt {
     margin-top: 4em;
     font-size: 1.2em;
 }
 
-.l-main__single__section2 {
+.l-main__page__section2 {
     margin: 5em 0em 3em 0em;
 
 }
 
-.l-main__single__section2 h3 {
+.l-main__page__section2 h3 {
     font-size: 2em;
 }
 
-.l-main__single__section2 h4 {
+.l-main__page__section2 h4 {
     margin-top: 3em;
     font-size: 1.5em;
 @include g.breakpoint (sp) {
@@ -53,7 +53,7 @@
 }
 }
 
-.l-main__single__section2 h5 {
+.l-main__page__section2 h5 {
     font-size: 1.5em;
     margin-top: 5em;
 @include g.breakpoint (sp) {
@@ -61,7 +61,7 @@
 }
 }
 
-.l-main__single__section2 h6 {
+.l-main__page__section2 h6 {
     font-size: 1.5em;
     margin-top: 6em;
 @include g.breakpoint (sp) {
@@ -69,7 +69,7 @@
 }
 }
 
-.l-main__single__section3 {
+.l-main__page__section3 {
     padding: 1em 3em 1em 3em;
     background-color: #F5F5F5;
 
@@ -78,7 +78,7 @@
 }
 }
 
-.l-main__single__section3__cite {
+.l-main__page__section3__cite {
     margin: 3em 0em 3em 0em;
 & a {
     font-style: normal;
@@ -86,14 +86,14 @@
 }
 }
 
-.l-main__single__section4 {
+.l-main__page__section4 {
     margin: 5em 0em 5em 0em;
 @include g.breakpoint (sp) {
     margin: 3em 0em 3em 0em;
 }
 }
 
-.l-main__singl__section4__sub1__body1 {
+.l-main__page__section4__sub1__body1 {
     display: flex;
     margin: 5em 0em 5em 0em;
     width: 100%;
@@ -106,7 +106,7 @@
 }
 }
 
-.l-main__singl__section4__sub1_img {
+.l-main__page__section4__sub1_img {
     width: 100%;
 @include g.breakpoint (tablet) {
     width: 50%;
@@ -118,7 +118,7 @@
 }
 }
 
-.l-main__singl__section4__sub1__body2 {
+.l-main__page__section4__sub1__body2 {
     display: flex;
     margin-bottom: 5em;
     width: 100%;
@@ -131,12 +131,12 @@
 }
 }
 
-.l-main__singl__section4__sub1__body3 {
+.l-main__page__section4__sub1__body3 {
     display: flex;
     justify-content: center;
     width: 100%;
 }
-.l-main__singl__section4__sub1__body3 img {
+.l-main__page__section4__sub1__body3 img {
 @include g.breakpoint (tablet) {
     width: 70%;
 }
@@ -145,7 +145,7 @@
 }
 }
 
-.l-main__single__section5__body {
+.l-main__page__section5__body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
@@ -158,39 +158,39 @@
 }
 }
 
-.l-main__single__section6__body {
+.l-main__page__section6__body {
     margin: 5em;
 & ul {
     list-style: none;
 }
 }
 
-.l-main__single__section6__body__list1 {
+.l-main__page__section6__body__list1 {
     margin-top: 3em;
 }
 
-.l-main__single__section6__body__list2 {
+.l-main__page__section6__body__list2 {
     margin-top: 3em;
     margin-left: 3em;
 }
 
-.l-main__single__section6__body__list3 {
+.l-main__page__section6__body__list3 {
     margin-top: 3em;
     margin-bottom: 6em;
 }
 
-.l-main__single__section6__body__list4 {
+.l-main__page__section6__body__list4 {
     margin-top: 3em;
 }
-.l-main__single__section6__body__list5 {
+.l-main__page__section6__body__list5 {
     margin-top: 3em;
     margin-left: 3em;
 }
-.l-main__single__section6__body__list6 {
+.l-main__page__section6__body__list6 {
     margin-top: 3em;
 }
 
-.l-main__single__section7 {
+.l-main__page__section7 {
     background-color: #F5F5F5;
     padding: 3em;
 
@@ -198,11 +198,11 @@
     list-style: none;
 }
 }
-.l-main__single__section7__body li:not(:first-of-type):not(:last-of-type) {
+.l-main__page__section7__body li:not(:first-of-type):not(:last-of-type) {
     margin-left: 2em;
 }
 
-.l-main__single__section8__body {
+.l-main__page__section8__body {
     margin: 5em 0em 5em 0em;
 & table {
     width: 100%;
@@ -210,11 +210,11 @@
 
 }
 
-.l-main__single__section8__body table  {
+.l-main__page__section8__body table  {
     border-collapse: collapse;
     background-color: #FFF;
 }
-.l-main__single__section8__body table tr td {
+.l-main__page__section8__body table tr td {
     font-size: 1.4em;
     border: solid 1px #707070;
     padding: 2em 0em 2em 2em ;
@@ -227,7 +227,7 @@
 
 }
 }
-.l-main__single__txt {
+.l-main__page__txt {
     padding: 5em 0em 20em 0em;
 & p {
     font-weight: bold;

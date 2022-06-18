@@ -11,8 +11,9 @@
     padding-top: 20px;
     padding-bottom: 30px;
 }
-& p {
+& ul {
     font-size: 1.8em;
+    list-style: none;
     margin-top: 30px;
     margin-bottom: 30px;
 @include g.breakpoint (tablet) {
@@ -26,4 +27,18 @@
     font-size: 1.2em;
 }
 }
+}
+
+.l-footer__txt {
+    display: flex;
+    justify-content: center;
+}
+
+.l-footer__txt__1 {
+    padding-right: 1em;
+}
+
+.l-footer__txt__2 {
+    padding-left: 1em;
+    border-left: 2px solid #ffffff;
 }
